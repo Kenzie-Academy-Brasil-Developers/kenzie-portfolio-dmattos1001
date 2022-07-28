@@ -24,7 +24,6 @@ import {
   ProjectAreaWrapperColumns,
 } from "./style";
 
-
 export const Home = (): JSX.Element => {
   return (
     <main>
@@ -82,6 +81,12 @@ export const Home = (): JSX.Element => {
               >
                 Acessar perfil no LinkedIn
               </Button>
+              <Text type="body1" color="grey2">
+                Sobre mim: Formado em direito, atuei na área por alguns anos,
+                porém estava insatisfeito. Pesquisei algumas áreas e a que mais
+                me interessou foi a de programação. Desde então faço cursos com
+                o objetivo de adentrar no mercado de trabalho.
+              </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
               <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
